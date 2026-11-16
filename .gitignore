@@ -1,0 +1,37 @@
+# Trained model artifacts (keep locally; do not upload to GitHub)
+/backend/exported_models/
+
+# Model weights and serialized model files (safety net outside exported_models)
+*.keras
+*.h5
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+pytorch_model.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Frontend
+/frontend/node_modules/
+/frontend/dist/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

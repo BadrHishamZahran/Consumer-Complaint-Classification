@@ -1,0 +1,16 @@
+# Backend API
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+
+# Deep learning
+tensorflow==2.21.0
+keras==3.12.4
+torch
+transformers==5.20.2
+safetensors
+
+# Data processing and model artifacts
+scikit-learn==1.6.1
+numpy
+pandas
+pydantic
